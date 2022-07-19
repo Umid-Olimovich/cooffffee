@@ -1,0 +1,147 @@
+// about us
+.hero__about {
+  content: "";
+  background: url(../img/Bitmap.jpg) no-repeat;
+  border-radius: 20px;
+  background-size: cover;
+  margin: 0 50px;
+}
+.hero__about__text {
+  width: 40%;
+  padding: 10% 0 10% 5%;
+}
+.hero__about__title {
+  font-size: 40px;
+  color: #fefcf7;
+  font-family: "Fraunces", sans-serif;
+}
+.hero__about__description {
+  font-size: 16px;
+  color: #fefcf7;
+  font-family: "Barlow", sans-serif;
+  margin-top: 30px;
+  line-height: 26px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .img_company {
+    border-radius: 10px;
+    margin: 100px;
+  }
+  .company__title {
+    font-family: "Fraunces", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333d4b;
+    margin-bottom: 30px;
+  }
+  &__description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-right: 150px;
+  }
+}
+
+.info {
+  background-color: #333d4b;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  position: relative;
+
+  &__img {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    img {
+      border-radius: 10px;
+    }
+  }
+  &__text {
+    padding: 70px;
+    width: 650px;
+  }
+  &__title::before {
+    content: "";
+    background-size: cover;
+  }
+  &__title {
+    font-family: "Fraunces", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+    margin-bottom: 40px;
+  }
+  &__description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
+
+// Country style
+.country {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  &__box {
+    width: 40%;
+    margin: 40px;
+    h3 {
+      margin: 50px 0 30px 0;
+      font-family: "Fraunces", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 36px;
+      color: #333d4b;
+    }
+    &__items {
+      li {
+        list-style: none;
+        margin-top: 10px;
+        
+      }
+      &__link{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  &__title {
+    font-family: "Fraunces", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    margin: 150px auto 50px 180px;
+  }
+}
+ .contentet{
+  margin-bottom: -200px;
+ }
+.footer_secsion{
+  margin-bottom: 100px;
+}
